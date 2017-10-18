@@ -1,0 +1,5 @@
+D:\website\HT\Hayton\WebUI\bin\HayTnAdmin.dll
+D:\website\HT\Hayton\WebUI\bin\HayTnAdmin.pdb
+D:\website\HT\Hayton\HayTnAdmin\obj\Debug\HayTnAdmin.csprojResolveAssemblyReference.cache
+D:\website\HT\Hayton\HayTnAdmin\obj\Debug\HayTnAdmin.dll
+D:\website\HT\Hayton\HayTnAdmin\obj\Debug\HayTnAdmin.pdb

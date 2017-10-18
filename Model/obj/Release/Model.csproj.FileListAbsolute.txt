@@ -1,0 +1,12 @@
+D:\website\HT\Hayton\Model\bin\Release\Model.dll.config
+D:\website\HT\Hayton\Model\bin\Release\Model.dll
+D:\website\HT\Hayton\Model\bin\Release\Model.pdb
+D:\website\HT\Hayton\Model\bin\Release\EntityFramework.dll
+D:\website\HT\Hayton\Model\bin\Release\EntityFramework.SqlServer.dll
+D:\website\HT\Hayton\Model\bin\Release\EntityFramework.xml
+D:\website\HT\Hayton\Model\bin\Release\EntityFramework.SqlServer.xml
+D:\website\HT\Hayton\Model\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\website\HT\Hayton\Model\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\website\HT\Hayton\Model\obj\Release\Model.dll
+D:\website\HT\Hayton\Model\obj\Release\Model.pdb
+D:\website\HT\Hayton\Model\obj\Release\Model.csprojResolveAssemblyReference.cache

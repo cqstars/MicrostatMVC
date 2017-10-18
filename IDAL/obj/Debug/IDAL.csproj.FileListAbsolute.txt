@@ -1,0 +1,13 @@
+D:\website\HT\Hayton\IDAL\bin\Debug\IDAL.dll
+D:\website\HT\Hayton\IDAL\bin\Debug\IDAL.pdb
+D:\website\HT\Hayton\IDAL\bin\Debug\Model.dll
+D:\website\HT\Hayton\IDAL\bin\Debug\EntityFramework.dll
+D:\website\HT\Hayton\IDAL\bin\Debug\Model.pdb
+D:\website\HT\Hayton\IDAL\bin\Debug\EntityFramework.xml
+D:\website\HT\Hayton\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\website\HT\Hayton\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\website\HT\Hayton\IDAL\obj\Debug\IDAL.dll
+D:\website\HT\Hayton\IDAL\obj\Debug\IDAL.pdb
+D:\website\HT\Hayton\WebUI\bin\IDAL.dll.config
+D:\website\HT\Hayton\WebUI\bin\IDAL.dll
+D:\website\HT\Hayton\WebUI\bin\IDAL.pdb

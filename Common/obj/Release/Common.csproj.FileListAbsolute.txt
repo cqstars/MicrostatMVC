@@ -1,0 +1,10 @@
+D:\website\HT\Hayton\Common\bin\Release\Common.dll
+D:\website\HT\Hayton\Common\bin\Release\Common.pdb
+D:\website\HT\Hayton\Common\bin\Release\Model.dll
+D:\website\HT\Hayton\Common\bin\Release\EntityFramework.dll
+D:\website\HT\Hayton\Common\bin\Release\Model.pdb
+D:\website\HT\Hayton\Common\bin\Release\EntityFramework.xml
+D:\website\HT\Hayton\Common\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\website\HT\Hayton\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+D:\website\HT\Hayton\Common\obj\Release\Common.dll
+D:\website\HT\Hayton\Common\obj\Release\Common.pdb

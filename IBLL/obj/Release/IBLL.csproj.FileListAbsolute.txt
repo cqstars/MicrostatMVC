@@ -1,0 +1,10 @@
+D:\website\HT\Hayton\IBLL\bin\Release\IBLL.dll
+D:\website\HT\Hayton\IBLL\bin\Release\IBLL.pdb
+D:\website\HT\Hayton\IBLL\bin\Release\Model.dll
+D:\website\HT\Hayton\IBLL\bin\Release\EntityFramework.dll
+D:\website\HT\Hayton\IBLL\bin\Release\Model.pdb
+D:\website\HT\Hayton\IBLL\bin\Release\EntityFramework.xml
+D:\website\HT\Hayton\IBLL\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\website\HT\Hayton\IBLL\obj\Release\IBLL.csprojResolveAssemblyReference.cache
+D:\website\HT\Hayton\IBLL\obj\Release\IBLL.dll
+D:\website\HT\Hayton\IBLL\obj\Release\IBLL.pdb

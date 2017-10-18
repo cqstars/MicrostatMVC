@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="HTModel.Department" />
+    <EntitySet Name="Permissions" EntityType="HTModel.Permission" />
+    <EntitySet Name="RolePermissions" EntityType="HTModel.RolePermission" />
+    <EntitySet Name="Roles" EntityType="HTModel.Role" />
+    <EntitySet Name="UserDBs" EntityType="HTModel.UserDB" />
+    <EntitySet Name="UserRoles" EntityType="HTModel.UserRole" />
+    <EntitySet Name="VipUserPermissions" EntityType="HTModel.VipUserPermission" />
+    <AssociationSet Name="FK_UserDB_DepartMent" Association="HTModel.FK_UserDB_DepartMent">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="UserDB" EntitySet="UserDBs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolePermissions_Permission" Association="HTModel.FK_RolePermissions_Permission">
+      <End Role="Permission" EntitySet="Permissions" />
+      <End Role="RolePermission" EntitySet="RolePermissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VipUserPermission_Permission" Association="HTModel.FK_VipUserPermission_Permission">
+      <End Role="Permission" EntitySet="Permissions" />
+      <End Role="VipUserPermission" EntitySet="VipUserPermissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolePermissions_Roles" Association="HTModel.FK_RolePermissions_Roles">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="RolePermission" EntitySet="RolePermissions" />
+    </AssociationSet>
+    <AssociationSet Name="UserRole_Roles" Association="HTModel.UserRole_Roles">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VipUserPermission_UserDB" Association="HTModel.FK_VipUserPermission_UserDB">
+      <End Role="UserDB" EntitySet="UserDBs" />
+      <End Role="VipUserPermission" EntitySet="VipUserPermissions" />
+    </AssociationSet>
+    <AssociationSet Name="UserRole_UserDB" Association="HTModel.UserRole_UserDB">
+      <End Role="UserDB" EntitySet="UserDBs" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentID" />
+    </Key>
+    <Property Name="DepartmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UserDBs" Relationship="HTModel.FK_UserDB_DepartMent" FromRole="Department" ToRole="UserDB" />
+  </EntityType>
+  <EntityType Name="Permission">
+    <Key>
+      <PropertyRef Name="PermissionID" />
+    </Key>
+    <Property Name="PermissionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Parent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AreaName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ControllerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ActionName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FormMethod" Type="Int32" />
+    <Property Name="OperationType" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Ico" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PerMissionOrder" Type="Int32" />
+    <Property Name="IsLink" Type="Boolean" />
+    <Property Name="LinkUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsShow" Type="Boolean" />
+    <Property Name="IsDel" Type="Boolean" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="RolePermissions" Relationship="HTModel.FK_RolePermissions_Permission" FromRole="Permission" ToRole="RolePermission" />
+    <NavigationProperty Name="VipUserPermissions" Relationship="HTModel.FK_VipUserPermission_Permission" FromRole="Permission" ToRole="VipUserPermission" />
+  </EntityType>
+  <EntityType Name="RolePermission">
+    <Key>
+      <PropertyRef Name="RolePerMissionID" />
+    </Key>
+    <Property Name="RolePerMissionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleID" Type="Int32" />
+    <Property Name="PermissionID" Type="Int32" />
+    <Property Name="IsDel" Type="Boolean" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <Property Name="DepartMentID" Type="Int32" />
+    <NavigationProperty Name="Permission" Relationship="HTModel.FK_RolePermissions_Permission" FromRole="RolePermission" ToRole="Permission" />
+    <NavigationProperty Name="Role" Relationship="HTModel.FK_RolePermissions_Roles" FromRole="RolePermission" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DeptmentID" Type="Int32" />
+    <Property Name="RoleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsShow" Type="Boolean" />
+    <Property Name="IsDel" Type="Boolean" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="RolePermissions" Relationship="HTModel.FK_RolePermissions_Roles" FromRole="Role" ToRole="RolePermission" />
+    <NavigationProperty Name="UserRoles" Relationship="HTModel.UserRole_Roles" FromRole="Role" ToRole="UserRole" />
+  </EntityType>
+  <EntityType Name="UserDB">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="PassWord" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NickName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Degree" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="College" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="QQ" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BirthDay" Type="DateTime" Precision="3" />
+    <Property Name="Telphone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Pic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Img" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Rights" Type="Int32" />
+    <Property Name="Brief" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Film" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sex" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="PosterNumber" Type="Int32" />
+    <Property Name="RegTime" Type="DateTime" Precision="3" />
+    <Property Name="IsForumClass" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DepartID" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="HTModel.FK_UserDB_DepartMent" FromRole="UserDB" ToRole="Department" />
+    <NavigationProperty Name="VipUserPermissions" Relationship="HTModel.FK_VipUserPermission_UserDB" FromRole="UserDB" ToRole="VipUserPermission" />
+    <NavigationProperty Name="UserRoles" Relationship="HTModel.UserRole_UserDB" FromRole="UserDB" ToRole="UserRole" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="UserRoleID" />
+    </Key>
+    <Property Name="UserRoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="RoleID" Type="Int32" />
+    <Property Name="IsDel" Type="Boolean" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Role" Relationship="HTModel.UserRole_Roles" FromRole="UserRole" ToRole="Role" />
+    <NavigationProperty Name="UserDB" Relationship="HTModel.UserRole_UserDB" FromRole="UserRole" ToRole="UserDB" />
+  </EntityType>
+  <EntityType Name="VipUserPermission">
+    <Key>
+      <PropertyRef Name="VipID" />
+    </Key>
+    <Property Name="VipID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VipUserID" Type="Int32" />
+    <Property Name="VipPerMissionID" Type="Int32" />
+    <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsDel" Type="Boolean" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Permission" Relationship="HTModel.FK_VipUserPermission_Permission" FromRole="VipUserPermission" ToRole="Permission" />
+    <NavigationProperty Name="UserDB" Relationship="HTModel.FK_VipUserPermission_UserDB" FromRole="VipUserPermission" ToRole="UserDB" />
+  </EntityType>
+  <Association Name="FK_UserDB_DepartMent">
+    <End Type="HTModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="HTModel.UserDB" Role="UserDB" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentID" />
+      </Principal>
+      <Dependent Role="UserDB">
+        <PropertyRef Name="DepartID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolePermissions_Permission">
+    <End Type="HTModel.Permission" Role="Permission" Multiplicity="0..1" />
+    <End Type="HTModel.RolePermission" Role="RolePermission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permission">
+        <PropertyRef Name="PermissionID" />
+      </Principal>
+      <Dependent Role="RolePermission">
+        <PropertyRef Name="PermissionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VipUserPermission_Permission">
+    <End Type="HTModel.Permission" Role="Permission" Multiplicity="0..1" />
+    <End Type="HTModel.VipUserPermission" Role="VipUserPermission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permission">
+        <PropertyRef Name="PermissionID" />
+      </Principal>
+      <Dependent Role="VipUserPermission">
+        <PropertyRef Name="VipPerMissionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolePermissions_Roles">
+    <End Type="HTModel.Role" Role="Role" Multiplicity="0..1" />
+    <End Type="HTModel.RolePermission" Role="RolePermission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="RolePermission">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserRole_Roles">
+    <End Type="HTModel.Role" Role="Role" Multiplicity="0..1" />
+    <End Type="HTModel.UserRole" Role="UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VipUserPermission_UserDB">
+    <End Type="HTModel.UserDB" Role="UserDB" Multiplicity="0..1" />
+    <End Type="HTModel.VipUserPermission" Role="VipUserPermission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDB">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="VipUserPermission">
+        <PropertyRef Name="VipUserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserRole_UserDB">
+    <End Type="HTModel.UserDB" Role="UserDB" Multiplicity="0..1" />
+    <End Type="HTModel.UserRole" Role="UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDB">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
