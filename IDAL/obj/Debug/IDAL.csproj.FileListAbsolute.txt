@@ -11,3 +11,9 @@ D:\website\HT\Hayton\IDAL\obj\Debug\IDAL.pdb
 D:\website\HT\Hayton\WebUI\bin\IDAL.dll.config
 D:\website\HT\Hayton\WebUI\bin\IDAL.dll
 D:\website\HT\Hayton\WebUI\bin\IDAL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\IDAL.dll.config
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\IDAL.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\IDAL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\IDAL\obj\Debug\IDAL.dll
+D:\website\MicrostatMVC\MicrostatMVC\IDAL\obj\Debug\IDAL.pdb

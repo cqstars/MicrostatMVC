@@ -16,3 +16,8 @@ D:\website\HT\Hayton\BLLA\obj\Debug\BLLA.dll
 D:\website\HT\Hayton\BLLA\obj\Debug\BLLA.pdb
 D:\website\HT\Hayton\WebUI\bin\BLLA.dll
 D:\website\HT\Hayton\WebUI\bin\BLLA.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\BLLA.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\BLLA.pdb
+D:\website\MicrostatMVC\MicrostatMVC\BLLA\obj\Debug\BLLA.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\BLLA\obj\Debug\BLLA.dll
+D:\website\MicrostatMVC\MicrostatMVC\BLLA\obj\Debug\BLLA.pdb

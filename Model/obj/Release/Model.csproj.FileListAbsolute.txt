@@ -10,15 +10,3 @@ D:\website\HT\Hayton\Model\bin\Release\zh-Hans\EntityFramework.SqlServer.resourc
 D:\website\HT\Hayton\Model\obj\Release\Model.dll
 D:\website\HT\Hayton\Model\obj\Release\Model.pdb
 D:\website\HT\Hayton\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\Model.dll.config
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\Model.dll
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\Model.pdb
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\EntityFramework.dll
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\EntityFramework.SqlServer.dll
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\EntityFramework.xml
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\EntityFramework.SqlServer.xml
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\zh-Hans\EntityFramework.resources.dll
-D:\website\MicrostatMVC\MicrostatMVC\Model\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
-D:\website\MicrostatMVC\MicrostatMVC\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
-D:\website\MicrostatMVC\MicrostatMVC\Model\obj\Release\Model.dll
-D:\website\MicrostatMVC\MicrostatMVC\Model\obj\Release\Model.pdb

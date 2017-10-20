@@ -196,6 +196,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -336,6 +339,9 @@
     <Content Include="Images\logo\logo_S.png" />
     <Content Include="Images\logo\Title_Logo.png" />
     <Content Include="Images\test_position.jpg" />
+    <Content Include="obj\Debug\WebUI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\WebUI.dll" />
+    <Content Include="obj\Debug\WebUI.pdb" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -359,10 +365,11 @@
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="bin\WebUI.dll.config" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\WebUI.csprojResolveAssemblyReference.cache" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
     <None Include="Properties\PublishProfiles\Ht.pubxml" />
     <None Include="Properties\PublishProfiles\HTPublish.pubxml" />
-    <None Include="Properties\PublishProfiles\MicrostatMVC.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -386,9 +393,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -428,7 +433,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\HayTnAdmin\Views\Shared\" />
-    <Folder Include="obj\Debug\" />
+    <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="obj\Release\" />
   </ItemGroup>
   <ItemGroup>

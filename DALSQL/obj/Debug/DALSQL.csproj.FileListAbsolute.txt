@@ -17,3 +17,9 @@ D:\website\HT\Hayton\DALSQL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resource
 D:\website\HT\Hayton\WebUI\bin\DALSQL.dll.config
 D:\website\HT\Hayton\WebUI\bin\DALSQL.dll
 D:\website\HT\Hayton\WebUI\bin\DALSQL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\DALSQL.dll.config
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\DALSQL.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\DALSQL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\DALSQL\obj\Debug\DALSQL.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\DALSQL\obj\Debug\DALSQL.dll
+D:\website\MicrostatMVC\MicrostatMVC\DALSQL\obj\Debug\DALSQL.pdb

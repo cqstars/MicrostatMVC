@@ -12,17 +12,3 @@ D:\website\HT\Hayton\DI\bin\Release\Spring.Core.xml
 D:\website\HT\Hayton\DI\obj\Release\DI.dll
 D:\website\HT\Hayton\DI\obj\Release\DI.pdb
 D:\website\HT\Hayton\DI\obj\Release\DI.csprojResolveAssemblyReference.cache
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\DI.dll
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\DI.pdb
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Common.Logging.Core.dll
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Common.Logging.dll
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Spring.Core.dll
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Common.Logging.pdb
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Common.Logging.xml
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Common.Logging.Core.pdb
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Common.Logging.Core.xml
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Spring.Core.pdb
-D:\website\MicrostatMVC\MicrostatMVC\DI\bin\Release\Spring.Core.xml
-D:\website\MicrostatMVC\MicrostatMVC\DI\obj\Release\DI.csprojResolveAssemblyReference.cache
-D:\website\MicrostatMVC\MicrostatMVC\DI\obj\Release\DI.dll
-D:\website\MicrostatMVC\MicrostatMVC\DI\obj\Release\DI.pdb
