@@ -12,3 +12,9 @@ D:\website\HT\Hayton\Model\obj\Debug\Model.pdb
 D:\website\HT\Hayton\WebUI\bin\Model.dll
 D:\website\HT\Hayton\WebUI\bin\Model.pdb
 D:\website\HT\Hayton\WebUI\bin\Model.dll.config
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\Model.dll.config
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\Model.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\Model.pdb
+D:\website\MicrostatMVC\MicrostatMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\Model\obj\Debug\Model.dll
+D:\website\MicrostatMVC\MicrostatMVC\Model\obj\Debug\Model.pdb

@@ -10,3 +10,8 @@ D:\website\HT\Hayton\IBLL\obj\Debug\IBLL.dll
 D:\website\HT\Hayton\IBLL\obj\Debug\IBLL.pdb
 D:\website\HT\Hayton\WebUI\bin\IBLL.dll
 D:\website\HT\Hayton\WebUI\bin\IBLL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\IBLL.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\IBLL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\obj\Debug\IBLL.dll
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\obj\Debug\IBLL.pdb

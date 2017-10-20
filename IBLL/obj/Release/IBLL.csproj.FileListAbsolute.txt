@@ -8,3 +8,13 @@ D:\website\HT\Hayton\IBLL\bin\Release\zh-Hans\EntityFramework.resources.dll
 D:\website\HT\Hayton\IBLL\obj\Release\IBLL.csprojResolveAssemblyReference.cache
 D:\website\HT\Hayton\IBLL\obj\Release\IBLL.dll
 D:\website\HT\Hayton\IBLL\obj\Release\IBLL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\bin\Release\IBLL.dll
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\bin\Release\IBLL.pdb
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\bin\Release\Model.dll
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\bin\Release\EntityFramework.dll
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\bin\Release\Model.pdb
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\bin\Release\EntityFramework.xml
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\obj\Release\IBLL.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\obj\Release\IBLL.dll
+D:\website\MicrostatMVC\MicrostatMVC\IBLL\obj\Release\IBLL.pdb

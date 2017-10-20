@@ -97,8 +97,9 @@ h6 {
 .head {
     width: 100%;
     height: 63px;
-    background: #0f92d6;
+    background: #2A3542;
     color: #fff;
+    box-shadow: 2px 2px 2px #B8C8D2;
 }
 
     .head a {
@@ -106,7 +107,7 @@ h6 {
     }
 
 .headlogo {
-    width: 200px;
+    width: 187px;
     height: 60px;
     line-height: 60px;
     text-align: center;
@@ -121,7 +122,7 @@ h6 {
         display: block;
         width: 70px;
         padding: 35px 0 5px 0;
-        background: #22b7eb url('../Images/bg/ico_bg.png') no-repeat;
+        background: #35404D url('../Images/bg/ico_bg.png') no-repeat;
         text-align: center;
     }
 
@@ -139,10 +140,10 @@ h6 {
 }
 .head .headnav li.current-menu a {
     width: 120px;
-    background-color:#ff6a00;
+    background-color:#fc8606;
 }
 .head .headnav li a:hover {
-    background-color: #62d2f9;
+    background-color: #fc8606;
 }
 .headlink {
     margin: 30px 20px 0 0;
@@ -192,7 +193,7 @@ h6 {
         font-weight: bold;
         color: #fff;
         font-size: 14px;
-        background: #009beb url('../Images/bg/ico_small.png') right 12px no-repeat;
+        background: #2A3542 url('../Images/bg/ico_small.png') right 12px no-repeat;
         cursor: pointer;
     }
     .leftmenu dl dd ul li {
@@ -227,6 +228,7 @@ h6 {
     border-bottom: 1px solid #B8C8D2;
 }
 /*左侧导航结束*/
+
 
 /*----------------------------阿里云字体-------------------------------------------------------------------------------*/
 .icon {

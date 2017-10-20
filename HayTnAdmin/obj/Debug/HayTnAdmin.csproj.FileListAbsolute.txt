@@ -3,3 +3,8 @@ D:\website\HT\Hayton\WebUI\bin\HayTnAdmin.pdb
 D:\website\HT\Hayton\HayTnAdmin\obj\Debug\HayTnAdmin.csprojResolveAssemblyReference.cache
 D:\website\HT\Hayton\HayTnAdmin\obj\Debug\HayTnAdmin.dll
 D:\website\HT\Hayton\HayTnAdmin\obj\Debug\HayTnAdmin.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\HayTnAdmin.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\HayTnAdmin.pdb
+D:\website\MicrostatMVC\MicrostatMVC\HayTnAdmin\obj\Debug\HayTnAdmin.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\HayTnAdmin\obj\Debug\HayTnAdmin.dll
+D:\website\MicrostatMVC\MicrostatMVC\HayTnAdmin\obj\Debug\HayTnAdmin.pdb

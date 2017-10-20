@@ -31,3 +31,8 @@ D:\website\HT\Hayton\WebUI.Ctrl\bin\Debug\zh-Hans\System.Web.WebPages.resources.
 D:\website\HT\Hayton\WebUI.Ctrl\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\website\HT\Hayton\WebUI\bin\WebUI.Ctrl.dll
 D:\website\HT\Hayton\WebUI\bin\WebUI.Ctrl.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\WebUI.Ctrl.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\WebUI.Ctrl.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI.Ctrl\obj\Debug\WebUI.Ctrl.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\WebUI.Ctrl\obj\Debug\WebUI.Ctrl.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI.Ctrl\obj\Debug\WebUI.Ctrl.pdb

@@ -1,9 +1,9 @@
 ﻿<div class="leftmenu" id="leftmenu">
     <div id="leftmenu_0" class="leftmenu-item">
         <dl>
-            <dt><svg class="icon text-danger" aria-hidden="true">
-    <use xlink:href="#icon-diqiu"></use>
-</svg>行政设置</dt>
+            <dt>
+              行政设置
+            </dt>
             <dd>
                 <ul class="clearfix">
                     <li><a href="javascript:;" _link="lanmuguanli.html">省级添加</a></li>
@@ -138,6 +138,21 @@
             </dd>
         </dl>
     </div><!--end leftmenu_3-->
-  
+
 </div>
+<script type="text/javascript">
+    $(function () {
+        $("#headnav li").click(function () { $(this).addClass("current-menu").siblings().removeClass("current-menu") })
+        $("#leftmenu dl dt").click(function () {
+            if (false == $(this).siblings("dd").is(":visible"))
+            {
+                $(this).css("background-position", "right 12px");
+            }
+            else {
+                $(this).css("background-position", "right -40px");
+            }
+            $(this).siblings("dd").slideToggle("fast");
+        })
+    });
+</script>
 

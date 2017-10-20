@@ -5,3 +5,8 @@ D:\website\HT\Hayton\DI\obj\Debug\DI.dll
 D:\website\HT\Hayton\DI\obj\Debug\DI.pdb
 D:\website\HT\Hayton\WebUI\bin\DI.dll
 D:\website\HT\Hayton\WebUI\bin\DI.pdb
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\DI.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\DI.pdb
+D:\website\MicrostatMVC\MicrostatMVC\DI\obj\Debug\DI.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\DI\obj\Debug\DI.dll
+D:\website\MicrostatMVC\MicrostatMVC\DI\obj\Debug\DI.pdb

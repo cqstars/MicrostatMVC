@@ -10,3 +10,8 @@ D:\website\HT\Hayton\Common\obj\Debug\Common.pdb
 D:\website\HT\Hayton\WebUI\bin\Common.dll
 D:\website\HT\Hayton\WebUI\bin\Common.pdb
 D:\website\HT\Hayton\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\Common.dll
+D:\website\MicrostatMVC\MicrostatMVC\WebUI\bin\Common.pdb
+D:\website\MicrostatMVC\MicrostatMVC\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\website\MicrostatMVC\MicrostatMVC\Common\obj\Debug\Common.dll
+D:\website\MicrostatMVC\MicrostatMVC\Common\obj\Debug\Common.pdb
